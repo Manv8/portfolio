@@ -16,8 +16,8 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/manvender-singh-1b2979299/
 "> <FaLinkedin /></a>
         <div><a href="https://github.com/Manv8"> <FaGithub /></a></div>
+        <div><a href="https://x.com/Manv_08"> <FaSquareXTwitter /></a></div>
         <div> <FaInstagram /></div>
-        <div> <FaSquareXTwitter /></div>
       </div>
     </nav>
   )
