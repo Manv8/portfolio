@@ -1,0 +1,62 @@
+import React from 'react'
+import musicPlayer from "../assets/musicPlayer.png"
+import bubbleGame from "../assets/bubbleGame.png"
+import { motion } from 'framer-motion';
+
+
+const Projects = () => {
+  return (
+    <div className='border-b border-neutral-900 pb-4'>
+      <motion.h1
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -50 }}
+        transition={{ duration: 1.5 }}
+        className='my-20 text-center text-4xl'>Projects</motion.h1>
+
+
+      <div className="mb-8 flex flex-wrap  lg:justify-center">
+        <motion.div
+        whileInView={{opacity:1,x:0}}
+        initial={{opacity:0,x:-100}}
+        transition={{duration:1.5}}
+        className="w-full   lg:w-1/4">
+          <img src={musicPlayer} width={150} height={150} className='mb-6 rounded' alt="" /></motion.div>
+        <motion.div
+            whileInView={{opacity:1,x:0}}
+            initial={{opacity:0,x:100}}
+            transition={{duration:1.5}}
+        className="w-full max-w-xl lg:w-3/4">
+          <h4 className='mb-2 font-semibold'>Music Player </h4>
+          <p className='mb-4 text-neutral-400  text-wrap'>Developed an interactive music player using HTML, CSS,and JavaScript,featuring dynamic song navigation, search, and play/pause controls.Enhancing user experience with smooth transitions between song playback and search results.</p>
+          <button className=' mx-10 border-1 m-5 hover:text-black  hover: hover:bg-white rounded-3xl w-30 h-10'>Live Demo</button>
+          <button className=' mx-10 border-1 bg-blue-500  hover: hover:bg-white hover:text-black rounded-3xl w-30 h-10'>Source</button>
+        </motion.div>
+
+      </div>
+      <div className="mb-8 flex flex-wrap  lg:justify-center">
+        <motion.div
+            whileInView={{opacity:1,x:0}}
+            initial={{opacity:0,x:-100}}
+            transition={{duration:1.5}}
+        className="w-full   lg:w-1/4">
+          <img src={bubbleGame} width={150} height={150} className='mb-6 rounded' alt="" /></motion.div>
+        <motion.div
+            whileInView={{opacity:1,x:0}}
+            initial={{opacity:0,x:100}}
+            transition={{duration:1.5}}
+        className="w-full max-w-xl lg:w-3/4">
+          <h4 className='mb-2 font-semibold'>Bubble Game</h4>
+          <p className='mb-4 text-neutral-400  text-wrap'>This simple bubble-popping game. When the "startbtn" is clicked, the game begins by generating 119 bubbles, each with a random number between 0 and 9. A target number is also randomly generated and displayed in the #hitBox. The player clicks on a bubble, and if the number inside the bubble matches the target number, the score increases by 10 points.</p>
+          <button className=' mx-10 border-1 m-5  hover:text-black  hover: hover:bg-white rounded-3xl w-30 h-10'>Live Demo</button>
+          <button className=' mx-10 border-1 bg-blue-500  hover: hover:bg-white hover:text-black rounded-3xl w-30 h-10'>Source</button>
+        </motion.div>
+
+      </div>
+
+
+
+    </div>
+  )
+}
+
+export default Projects
