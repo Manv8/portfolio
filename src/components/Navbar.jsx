@@ -14,8 +14,7 @@ const Navbar = () => {
         <h4 className='text-3xl'>MS</h4>
       </div>
       <div className='m-8 flex items-center  justify-center gap-4 text-2xl'>
-        <div> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=08manvender@gmail.com
-"> <FiMail /> </a></div>
+        <div> <a href="mailto:08manvender@gmail.com"> <FiMail /> </a></div>
         <a href="https://www.linkedin.com/in/manvender-singh-1b2979299/
 "> <FaLinkedin /></a>
         <div><a href="https://github.com/Manv8"> <FaGithub /></a></div>
