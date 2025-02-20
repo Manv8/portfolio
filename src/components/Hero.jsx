@@ -23,8 +23,8 @@ const Hero = () => {
 
     const downloadBtn = () => {
         const link = document.createElement('a');
-        link.href = resumeManv; // Use actual file path
-        link.download = 'resumeManv.pdf'; // Specify the filename
+        link.href = manvenderMernStack; // Use actual file path
+        link.download = 'manvenderMernStack.pdf'; // Specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
