@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/kevinRushProfile.png";
-import resumeManv from "../assets/resumeManv.pdf";
+import resumeManv from "../assets/manvenderMernStack.pdf";
 import { motion } from 'framer-motion';
 import coder from "../assets/CODER.gif"
 import manlaptop from "../assets/manlaptop.gif"
@@ -24,7 +24,7 @@ const Hero = () => {
     const downloadBtn = () => {
         const link = document.createElement('a');
         link.href = resumeManv; // Use actual file path
-        link.download = 'manvenderMernStack.pdf'; // Specify the filename
+        link.download = 'resumeManv.pdf'; // Specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
