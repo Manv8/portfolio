@@ -70,7 +70,7 @@ const Hero = () => {
                            variants={container(1)}
                            initial="hidden"
                            animate="visible"
-                            onClick={togglePopup}
+                            // onClick={togglePopup}
                             className='my-5 mx-10 border-1 hover:text-black hover:bg-white rounded-3xl w-30 h-10'>
                             Contact Me
                         </motion.button>
