@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate MERN stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React,Javascript,HTML,Css and Next.js, as well as back-end technologies like Node.js, expressjs, mongoose, and MongoDB. `;
+export const HERO_CONTENT = `I am a passionate MERN stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, Javascript, HTML, Css and Next.js, as well as back-end technologies like Node.js, expressjs,  mongoose, and MongoDB. `;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js,Javascript, HTML, CSS,ExpressJS and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 

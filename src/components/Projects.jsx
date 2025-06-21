@@ -31,7 +31,7 @@ const Projects = () => {
           transition={{ duration: 1.5 }}
           className="w-full max-w-xl lg:w-3/4">
           <h4 className='mb-2 font-semibold'>Music Player </h4>
-          <p className='mb-4 text-neutral-400  text-wrap'>Developed an interactive music player using HTML, CSS,and JavaScript,featuring dynamic song navigation, search, and play/pause controls.Enhancing user experience with smooth transitions between song playback and search results.</p>
+          <p className='mb-4 text-neutral-400  text-wrap text-justify'>Developed an interactive music player using HTML, CSS,and JavaScript,featuring dynamic song navigation, search, and play/pause controls.Enhancing user experience with smooth transitions between song playback and search results.</p>
           <button className=' mx-10 border-1 m-5 hover:text-black  hover: hover:bg-white rounded-3xl w-30 h-10'><a href="https://music-player-manv.vercel.app/"> Live Demo</a></button>
           <button className=' mx-10 border-1 bg-blue-500  hover: hover:bg-white hover:text-black rounded-3xl w-30 h-10'><a href="https://github.com/Manv8/music-player">Source</a> </button>
         </motion.div>
@@ -53,7 +53,7 @@ const Projects = () => {
           transition={{ duration: 1.5 }}
           className="w-full max-w-xl lg:w-3/4">
           <h4 className='mb-2 font-semibold'>Jarvis AI-Assistant</h4>
-          <p className='mb-4 text-neutral-400  text-wrap'>Your JARVIS virtual assistant project is built using HTML, CSS, and JavaScript. It includes a user interface with a microphone button to capture voice commands and display responses dynamically. The CSS ensures a sleek, responsive design with animations for better user experience. The JavaScript integrates Web Speech API for speech recognition, processing voice commands, and responding accordingly. The assistant can recognize specific commands, display responses on the screen, and improve interactivity.</p>
+          <p className='mb-4 text-neutral-400 text-justify  text-wrap'>Your JARVIS virtual assistant project is built using HTML, CSS, and JavaScript. It includes a user interface with a microphone button to capture voice commands and display responses dynamically. The CSS ensures a sleek, responsive design with animations for better user experience. The JavaScript integrates Web Speech API for speech recognition, processing voice commands, and responding accordingly. The assistant can recognize specific commands, display responses on the screen, and improve interactivity.</p>
           <button className=' mx-10 border-1 m-5  hover:text-black  hover: hover:bg-white rounded-3xl w-30 h-10'><a href="https://jarvis-by-manvender.vercel.app/"> Live Demo</a></button>
           <button className=' mx-10 border-1 bg-blue-500  hover: hover:bg-white hover:text-black rounded-3xl w-30 h-10'><a href="https://github.com/Manv8/jarvis"> Source </a></button>
         </motion.div>
@@ -73,7 +73,7 @@ const Projects = () => {
           transition={{ duration: 1.5 }}
           className="w-full max-w-xl lg:w-3/4">
             <h4 className='mb-2 font-semibold'>Bubble Game</h4>
-            <p className='mb-4 text-neutral-400  text-wrap'>This simple bubble-popping game. When the "startbtn" is clicked, the game begins by generating 119 bubbles, each with a random number between 0 and 9. A target number is also randomly generated and displayed in the #hitBox. The player clicks on a bubble, and if the number inside the bubble matches the target number, the score increases by 10 points.</p>
+            <p className='mb-4 text-neutral-400 text-justify  text-wrap'>This simple bubble-popping game. When the "startbtn" is clicked, the game begins by generating 119 bubbles, each with a random number between 0 and 9. A target number is also randomly generated and displayed in the #hitBox. The player clicks on a bubble, and if the number inside the bubble matches the target number, the score increases by 10 points.</p>
             <button className=' mx-10 border-1 m-5  hover:text-black  hover: hover:bg-white rounded-3xl w-30 h-10'><a href="https://bubble-game-manv.vercel.app/"> Live Demo</a></button>
             <button className=' mx-10 border-1 bg-blue-500  hover: hover:bg-white hover:text-black rounded-3xl w-30 h-10'><a href="https://github.com/Manv8/bubble-game"> Source </a></button>
           </motion.div>

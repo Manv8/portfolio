@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/kevinRushProfile.png";
-import resumeManv from "../assets/manvenderMernStack.pdf";
+import resumeManv from "../assets/manvenderResume.pdf";
 import { motion } from 'framer-motion';
 import coder from "../assets/CODER.gif"
 import manlaptop from "../assets/manlaptop.gif"
@@ -24,7 +24,7 @@ const Hero = () => {
     const downloadBtn = () => {
         const link = document.createElement('a');
         link.href = resumeManv; // Use actual file path
-        link.download = 'resumeManv.pdf'; // Specify the filename
+        link.download = 'manvenderResume.pdf'; // Specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -56,14 +56,14 @@ const Hero = () => {
                                variants={container(1)}
                                initial="hidden"
                                animate="visible"
-                            className='my-2 max-w-xl py6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
+                            className='my-2 max-w-xl py6 font-light tracking-tighter text-justify'>{HERO_CONTENT}</motion.p>
                         </div>
                         <motion.button
                            variants={container(1)}
                            initial="hidden"
                            animate="visible"
                             onClick={downloadBtn}
-                            className='my-5 mx-10 border-1 hover:text-black hover:bg-white rounded-3xl w-30 h-10'>
+                            className='bg-pink-300 my-5 text-black mx-10 border-1 hover:text-black hover:bg-white rounded-3xl w-30 h-10'>
                             Download CV
                         </motion.button>
                         <motion.button
@@ -71,8 +71,10 @@ const Hero = () => {
                            initial="hidden"
                            animate="visible"
                             // onClick={togglePopup}
-                            className='my-5 mx-10 border-1 hover:text-black hover:bg-white rounded-3xl w-30 h-10'>
-                            Contact Me
+                            className='bg-purple-500 text-black  my-5 mx-10 border-1 hover:text-black hover:bg-white rounded-3xl w-30 h-10'>
+                         
+                          <a href="http://mailto:08manvender@gmail.com">Contact Me</a>
+                           
                         </motion.button>
                     </div>
 
