@@ -73,7 +73,7 @@ const Hero = () => {
                             // onClick={togglePopup}
                             className='bg-purple-500 text-black  my-5 mx-10 border-1 hover:text-black hover:bg-white rounded-3xl w-30 h-10'>
                          
-                          <a href="http://mailto:08manvender@gmail.com">Contact Me</a>
+                          <a href="mailto:08manvender@gmail.com">Contact Me</a>
                            
                         </motion.button>
                     </div>
